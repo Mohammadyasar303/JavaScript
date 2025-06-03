@@ -10,3 +10,5 @@ console.log(++a); // Increment
 console.log(--b); // Decrement
 console.log(a++); // Post-increment
 console.log(b--); // Post-decrement
+console.log(++a); // pre increment
+console.log(--b); // pre decrement
