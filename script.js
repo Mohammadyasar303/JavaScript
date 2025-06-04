@@ -119,8 +119,16 @@
 
     // while loop
         // print 1 to 5
-        let i = 1;
-        while(i<=5){
-            console.log(i);
+        // let i = 1;
+        // while(i<=5){
+        //     console.log(i);
+        //     i++;
+        // }
+
+    // do-while loop
+        // print 1 to 10
+        let i = 10;
+        do{
+            console.log("value of i is :",i);
             i++;
-        }
+        } while(i <= 100);
