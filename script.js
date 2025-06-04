@@ -85,15 +85,18 @@
 // Qs2. Write a code which can give grades to students according to their scores:
 
     let score = prompt("Enter your Score:");
+    let grade;
 
     if (score >= 90 && score <= 100) {
-        console.log("A - Grade");
+        grade = "A";
     } else if (score >=70 && score < 90){
-        console.log("B - Grade");
+        grade = "B";
     } else if (score >= 60 && score < 70){
-        console.log("C - Grade");
+        grade = "C";
     } else if (score >= 50 && score < 60){
-        console.log("D - Grade");
+        grade = "D";
     } else {
-        console.log("F - Grade");
+        grade = "F";
     }
+
+    console.log("Your grade is :" , grade);
