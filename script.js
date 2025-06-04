@@ -145,13 +145,52 @@
         // console.log("There are total",count,"characters available in string :",str);
 
     // for-in loop : iterate over object properties
-        let student = {
-            name: "yasar",
-            enrollment: 123,
-            div: "A",
-            age: 20
-        }
+        // let student = {
+        //     name: "yasar",
+        //     enrollment: 123,
+        //     div: "A",
+        //     age: 20
+        // }
 
-        for(let key in student){
-            console.log("key is :", key, "&", "Value is:", student[key]);
-        }
+        // for(let key in student){
+        //     console.log("key is :", key, "&", "Value is:", student[key]);
+        // }
+
+// Loops Practice:
+// Qs1. Print all even numbers from 0 to 100.
+
+    // Using for loop
+    // for(let i = 0; i <= 100; i++){
+    //     if(i % 2 === 0){
+    //         console.log("Even numbers are :",i)
+    //     }
+    // }
+
+    // Using while loop
+    // let i = 0;
+    // while(i <= 100){
+    //     if(i % 2 === 0){
+    //         console.log("Even numbers are :", i);
+    //     }
+    //     i++;
+    // }
+
+    // Using do-while loop
+    // let i = 0;
+    // do {
+    //     if(i % 2 === 0){
+    //         console.log("Even Numbers are :", i);
+    //     }
+    //     i++;
+    // } while (i<=100);
+
+// Qs2. Create a game where you start with any random game number. Ask the user to keep guessing the game number until the user enters correct value.
+
+    let gameNumber = 50;
+    let userGuess = prompt("Guess the game number (between 1 and 100):");
+
+    while (userGuess != gameNumber){
+        userGuess = prompt("Wrong guess! Try again. Guess the game number (between 1 and 100):");
+    }
+
+    console.log("Congratulations! You've guessed the correct game number:", gameNumber); 
