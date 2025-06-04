@@ -127,8 +127,19 @@
 
     // do-while loop
         // print 1 to 10
-        let i = 10;
-        do{
-            console.log("value of i is :",i);
-            i++;
-        } while(i <= 100);
+        // let i = 10;
+        // do{
+        //     console.log("value of i is :",i);
+        //     i++;
+        // } while(i <= 100);
+
+    // for-of loop
+        let str = "HelloWorld";
+        let count = 0;
+        
+        for(let char of str){
+            console.log(char);
+            count++;
+        }
+
+        console.log("There are total",count,"characters available in string :",str);
