@@ -186,11 +186,14 @@
 
 // Qs2. Create a game where you start with any random game number. Ask the user to keep guessing the game number until the user enters correct value.
 
-    let gameNumber = 50;
-    let userGuess = prompt("Guess the game number (between 1 and 100):");
+    // let gameNumber = 50;
+    // let userGuess = prompt("Guess the game number (between 1 and 100):");
 
-    while (userGuess != gameNumber){
-        userGuess = prompt("Wrong guess! Try again. Guess the game number (between 1 and 100):");
-    }
+    // while (userGuess != gameNumber){
+    //     userGuess = prompt("Wrong guess! Try again. Guess the game number (between 1 and 100):");
+    // }
 
-    console.log("Congratulations! You've guessed the correct game number:", gameNumber); 
+    // console.log("Congratulations! You've guessed the correct game number:", gameNumber); 
+
+// Strings:
+    
