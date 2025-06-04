@@ -196,4 +196,55 @@
     // console.log("Congratulations! You've guessed the correct game number:", gameNumber); 
 
 // Strings:
-    
+
+    //let str = "Hello World!";
+    //console.log(str.length); // Output: 12
+    //console.log(str.toUpperCase()); // Output: "HELLO WORLD!"
+    //console.log(str.toLowerCase()); // Output: "hello world!"
+
+    // Template Literals:
+        // let name = "Yasar";
+        // let age = 20;
+        // let occupation = "Software Developer";
+        // let introduction = `My name is ${name}, I am ${age} years old and I work as a ${occupation}.`;
+        // console.log(introduction); // Output: "My name is Yasar, I am 20 years old and I work as a Software Developer."
+
+    // String Methods:
+        // toUpperCase
+            // let name = "Yasar"; 
+            // console.log(name.toUpperCase()); // Output: "YASAR"
+        
+        // toLowerCase
+            // console.log(name.toLowerCase()); // Output: "yasar"
+
+        // trim(): Removes whitespace from the start and end of a string.
+            // let str = "   Hello World!   ";
+            // console.log(str.trim()); // Output: "Hello World!"
+
+        // Slice(): Extracts a section of a string and returns it as a new string.
+            // let str = "Hello World!";
+            // console.log(str.slice(0, 5)); // Output: "Hello"
+
+        // concat(): Joins two or more strings together.
+            // let str1 = "Hello";
+            // let str2 = "World";
+            // console.log(str1.concat(str2)); // Output: "HelloWorld"
+
+        // replace(): Replaces a specified value with another value in a string.
+            // let str = "Hello World!";
+            // console.log(str.replace("World", "JavaScript")); // Output: "Hello JavaScript!"
+        
+        // charAt(): Returns the character at a specified index in a string.
+            // let str = "Hello";
+            // console.log(str.charAt(0)); // Output: "H"
+
+// Qs1. Prompt the user to enter their full name. Generate a username for them based on the input. Start username with @, followed by their full name and ending with the fullname length.
+
+    let userInput = prompt("Enter Your Full Name :");
+
+    while (!userInput){
+        userInput = prompt("Please enter valid Full name:");
+    }
+    let username = `@${userInput.toLowerCase()}${userInput.length}`;
+
+    console.log("Your generated username is:", username);
