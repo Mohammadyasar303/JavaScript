@@ -263,26 +263,27 @@
         // }
 
     //Qs.1 For a given array with marks of students -> [85, 97, 44, 37, 76, 60] Find the average marks of the entire class.
-        let marks = [85, 97, 44, 37, 76, 60];
-        let totalMarks = 0;
+        // let marks = [85, 97, 44, 37, 76, 60];
+        // let totalMarks = 0;
 
-        for (let mark of marks){
-            totalMarks += mark;
-        }
-            console.log(`Current Total Marks: ${totalMarks}`);
-            console.log(`Average of Marks is: ${totalMarks / marks.length}`);
+        // for (let mark of marks){
+        //     totalMarks += mark;
+        // }
+        //     console.log(`Current Total Marks: ${totalMarks}`);
+        //     console.log(`Average of Marks is: ${totalMarks / marks.length}`);
 
     /*Qs.2 For a given array with prices of 5 items -> [250, 645, 300, 900, 50] 
            All items have an offer of 10% OFF on them. Change the array to store final price after the discount. */
 
-        let prices = [250, 645, 300, 900, 50]; 
+        // let prices = [250, 645, 300, 900, 50]; 
         
-            for(let i=0; i<prices.length; i++){
-            let offer = prices[i] / 10; // Calculate 10% offer
-            offeredPrice = prices[i] - offer; // Store the final price after discount
+        //     for(let i=0; i<prices.length; i++){
+        //     let offer = prices[i] / 10; // Calculate 10% offer
+        //     offeredPrice = prices[i] - offer; // Store the final price after discount
             
-            console.log(`Original price is : ${prices[i]}`)
-            console.log(`Price after 10% Discount is : ${offeredPrice}`);
-            }
+        //     console.log(`Original price is : ${prices[i]}`)
+        //     console.log(`Price after 10% Discount is : ${offeredPrice}`);
+        //     }
 
-              
+// Arrays Methods:
+    
