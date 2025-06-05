@@ -286,4 +286,55 @@
         //     }
 
 // Arrays Methods:
+
+    // // push() : Add an element to the end of the array 
+    //     let numbers = [1,2,3,4,5];
+
+    //     numbers.push(6); // Adds 6 to the end of the array
+    //     console.log(numbers); // Output: [1, 2, 3, 4, 5, 6]
+
+    // // pop() : Remove the last element from the array
+    //     numbers.pop(); // Removes the last element (6)
+    //     console.log(numbers); // Output: [1, 2, 3, 4, 5]
+
+    // // toString() : Convert the array to a string
+    //     let str = numbers.toString(); // Converts the array to a string
+    //     console.log(str); // Output: "1,2,3,4,5"
+
+    // // concat() : Concatenate two or more arrays
+    //     let moreNumbers = [7, 8, 9];
+    //     let combined = numbers.concat(moreNumbers); // Combines the two arrays
+    //     console.log(combined); // Output: [1, 2, 3, 4, 5, 7, 8, 9]
+
+    // // unshift() : Add an element to the beginning of the array
+    //     combined.unshift(0); // Adds 0 to the beginning of the array
+    //     console.log(combined); // Output: [0, 1, 2, 3, 4, 5, 7, 8, 9]
+
+    // // shift() : Remove the first element from the array
+    //     combined.shift(); // Removes the first element (0)  
+    //     console.log(combined); // Output: [1, 2, 3, 4, 5, 7, 8, 9]
+
+    // // slice() : Extract a section of the array
+    //     let sliced = combined.slice(2, 5); // Extracts elements from index 2 to 4
+    //     console.log(sliced); // Output: [3, 4, 5]
+
+    // // splice() : Add or remove elements from the array
+    //     combined.splice(2, 2, 10, 11); // Removes 2 elements starting from index 2 and adds 10 and 11
+    //     console.log(combined); // Output: [1, 2, 10, 11, 5, 7, 8, 9]
+
+// Qs. Create an array to store companies -> “Bloomberg”, “Microsoft”, “Uber”, “Google”, “IBM”, “Netflix”
+
+    // let companies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+
+    // // a. Remove the first company from the array
+    //     console.log(`First company removed : ${companies.shift()}`)
+    //     console.log("Companies after removing first company :" ,companies);
+
+    // // b. Remove Uber & Add Ola in its place
+    //     companies.splice(1, 1, "Ola")// Removes "Uber" and adds "Ola" in its place
+    //     console.log("Companies after replacing Uber with Ola :" ,companies);
+
+    // // c. Add Amazon at the end
+    //     companies.push("Amazon");// Adds "Amazon" at the end of the array
+    //     console.log("Companies after adding Amazon at the end :" ,companies);
     
