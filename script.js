@@ -240,11 +240,13 @@
 
 // Qs1. Prompt the user to enter their full name. Generate a username for them based on the input. Start username with @, followed by their full name and ending with the fullname length.
 
-    let userInput = prompt("Enter Your Full Name :");
+    // let userInput = prompt("Enter Your Full Name :");
 
-    while (!userInput){
-        userInput = prompt("Please enter valid Full name:");
-    }
-    let username = `@${userInput.toLowerCase()}${userInput.length}`;
+    // while (!userInput){
+    //     userInput = prompt("Please enter valid Full name:");
+    // }
+    // let username = `@${userInput.toLowerCase()}${userInput.length}`;
 
-    console.log("Your generated username is:", username);
+    // console.log("Your generated username is:", username);
+
+// Arrays :- 
